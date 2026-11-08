@@ -5,6 +5,21 @@ All notable changes to LLMKube will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.18](https://github.com/defilantech/LLMKube/compare/v0.10.17...v0.10.18) (2026-11-08)
+
+
+### Features
+
+* **chart:** add relabelings and metricRelabelings to the PodMonitors ([#2467](https://github.com/defilantech/LLMKube/issues/2467)) ([d0ae4f3](https://github.com/defilantech/LLMKube/commit/d0ae4f35b1b75c6146f93cd34effae4a09196811))
+* **inferenceservice:** per-service size for the model cache ([#2469](https://github.com/defilantech/LLMKube/issues/2469)) ([ec18285](https://github.com/defilantech/LLMKube/commit/ec182857747916b6a7216c3fd2bafb486aa8ab36))
+* **router:** gate router readiness on required local listeners ([#2468](https://github.com/defilantech/LLMKube/issues/2468)) ([033ca80](https://github.com/defilantech/LLMKube/commit/033ca80d181c45f215080679c444848266850e47))
+
+
+### Bug Fixes
+
+* avoid stale namespace reads in quota admission ([#2471](https://github.com/defilantech/LLMKube/issues/2471)) ([12af4c4](https://github.com/defilantech/LLMKube/commit/12af4c4da28300b5281e3d590c896ef0ef1cf99d))
+* warn about unmatched model file patterns ([#2472](https://github.com/defilantech/LLMKube/issues/2472)) ([fb75656](https://github.com/defilantech/LLMKube/commit/fb756566b7f0a13ce0d75de3006d05adbd7422b8))
+
 ## [0.10.17](https://github.com/defilantech/LLMKube/compare/v0.10.16...v0.10.17) (2026-11-06)
 
 
